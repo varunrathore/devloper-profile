@@ -163,37 +163,68 @@
 }
 
 .skill-item {
-  background: #f7fafc;
-  padding: 1.25rem 1rem;
+  background: #f8fafc;
+  padding: 1.5rem 1rem;
   border-radius: 12px;
   text-align: center;
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .skill-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border-color: #ff8c00;
+  background: white;
 }
 
 .skill-item i {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: #ff8c00;
-  margin-bottom: 0.75rem;
   transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-item:hover i {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  color: #ff6b00;
 }
 
 .skill-item span {
   display: block;
   color: #4a5568;
-  font-size: 1.25rem;
+  font-size: 0.95rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.2;
+}
+
+/* Specific brand colors for tech icons */
+.skill-item .fa-react { color: #61dafb; }
+.skill-item .fa-angular { color: #dd0031; }
+.skill-item .fa-js { color: #f7df1e; }
+.skill-item .fa-html5 { color: #e34f26; }
+.skill-item .fa-css3-alt { color: #264de4; }
+.skill-item .fa-sass { color: #cc6699; }
+.skill-item .fa-php { color: #777bb4; }
+.skill-item .fa-laravel { color: #ff2d20; }
+.skill-item .fa-aws { color: #ff9900; }
+.skill-item .fa-docker { color: #2496ed; }
+.skill-item .fa-git-alt { color: #f05032; }
+.skill-item .fa-github { color: #181717; }
+.skill-item .fa-stripe { color: #008cdd; }
+.skill-item .fa-paypal { color: #00457c; }
+
+.skill-item:hover .fab,
+.skill-item:hover .fas {
+  color: #ff8c00;
 }
 
 .projects-grid {
@@ -414,15 +445,17 @@
   }
 
   .skill-item {
-    padding: 1rem 0.75rem;
+    padding: 1.25rem 1rem;
   }
 
   .skill-item i {
     font-size: 1.75rem;
+    width: 35px;
+    height: 35px;
   }
 
   .skill-item span {
-    font-size: 0.875rem;
+    font-size: 0.9rem;
   }
 
   .experience-item {

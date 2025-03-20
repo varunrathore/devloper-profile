@@ -25,7 +25,7 @@ const Profile = () => {
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/vardaan-thakur-68b34a140/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="mailto:vardaanthakur786@gmail.com">
@@ -40,32 +40,22 @@ const Profile = () => {
           <h2><i className="fas fa-laptop-code"></i> Skills & Projects</h2>
           <div className="section-subtitle">Technical Skills</div>
           <div className="skills-grid">
-            {/* Backend Development */}
-            <div className="skill-item">
-              <i className="fab fa-php"></i>
-              <span>PHP</span>
-            </div>
-            <div className="skill-item">
-              <i className="fab fa-laravel"></i>
-              <span>Laravel</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-database"></i>
-              <span>MySql</span>
-            </div>
-
-            {/* Frontend Development */}
+            {/* Frontend */}
             <div className="skill-item">
               <i className="fab fa-react"></i>
               <span>React.js</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-react"></i>
+              <i className="fab fa-angular"></i>
               <span>Angular</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-js"></i>
               <span>JavaScript</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-bootstrap"></i>
+              <span>Bootstrap</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-html5"></i>
@@ -75,77 +65,135 @@ const Profile = () => {
               <i className="fab fa-css3-alt"></i>
               <span>CSS3</span>
             </div>
-
-            {/* Laravel Features */}
             <div className="skill-item">
-              <i className="fas fa-database"></i>
-              <span>AWS</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-table"></i>
-              <span>Nginx</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-arrows-alt-v"></i>
-              <span>Apache</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-shield-alt"></i>
-              <span>Docker</span>
+              <i className="fab fa-sass"></i>
+              <span>SCSS/SASS</span>
             </div>
 
-            {/* API & Security */}
+            {/* Backend */}
             <div className="skill-item">
-              <i className="fas fa-exchange-alt"></i>
+              <i className="fab fa-php"></i>
+              <span>PHP</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-laravel"></i>
+              <span>Laravel</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-code-branch"></i>
               <span>RESTful APIs</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-key"></i>
+              <i className="fas fa-database"></i>
+              <span>SQL</span>
+            </div>
+
+            {/* Development Tools */}
+            <div className="skill-item">
+              <i className="fab fa-git-alt"></i>
+              <span>Git</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-github"></i>
+              <span>GitHub</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-aws"></i>
+              <span>AWS</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-docker"></i>
+              <span>Docker</span>
+            </div>
+
+            {/* State Management */}
+            <div className="skill-item">
+              <i className="fas fa-cube"></i>
+              <span>Redux</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-project-diagram"></i>
+              <span>Context API</span>
+            </div>
+
+            {/* Authentication & Security */}
+            <div className="skill-item">
+              <i className="fas fa-shield-alt"></i>
               <span>JWT</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-passport"></i>
-              <span>Passport</span>
+              <i className="fas fa-lock"></i>
+              <span>OAuth</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-lock"></i>
+              <i className="fas fa-key"></i>
               <span>Sanctum</span>
             </div>
 
-            {/* Development Practices */}
+            {/* Database & ORM */}
             <div className="skill-item">
-              <i className="fas fa-bug"></i>
-              <span>Debugging</span>
+              <i className="fas fa-database"></i>
+              <span>MySQL</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-exclamation-triangle"></i>
-              <span>Error Handling</span>
+              <i className="fas fa-table"></i>
+              <span>Eloquent ORM</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-file-alt"></i>
-              <span>Logging</span>
+              <i className="fas fa-stream"></i>
+              <span>Query Builder</span>
+            </div>
+
+            {/* Testing & Optimization */}
+            <div className="skill-item">
+              <i className="fas fa-vial"></i>
+              <span>PHPUnit</span>
             </div>
             <div className="skill-item">
               <i className="fas fa-tachometer-alt"></i>
               <span>Performance</span>
             </div>
-
-            {/* Advanced Concepts */}
             <div className="skill-item">
-              <i className="fas fa-layer-group"></i>
-              <span>Middleware</span>
+              <i className="fas fa-bug"></i>
+              <span>Debugging</span>
+            </div>
+
+            {/* Development Concepts */}
+            <div className="skill-item">
+              <i className="fas fa-code"></i>
+              <span>OOP</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-memory"></i>
-              <span>Caching</span>
+              <i className="fas fa-layer-group"></i>
+              <span>MVC</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-sitemap"></i>
+              <span>Design Patterns</span>
+            </div>
+
+            {/* Payment Integration */}
+            <div className="skill-item">
+              <i className="fab fa-stripe"></i>
+              <span>Stripe</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-paypal"></i>
+              <span>PayPal</span>
+            </div>
+
+            {/* Development Tools */}
+            <div className="skill-item">
+              <i className="fas fa-terminal"></i>
+              <span>Command Line</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-code-branch"></i>
+              <span>Version Control</span>
             </div>
             <div className="skill-item">
               <i className="fas fa-tasks"></i>
-              <span>Queues</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-puzzle-piece"></i>
-              <span>Problem-Solving</span>
+              <span>Agile/Scrum</span>
             </div>
           </div>
 
