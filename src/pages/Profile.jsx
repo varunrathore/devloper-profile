@@ -151,15 +151,6 @@ const Profile = () => {
 
           <div className="section-subtitle">Key Projects</div>
           <div className="projects-grid">
-            <div className="project-card">
-              <h3>Customer Portal - Ugro Capital</h3>
-              <p className="project-tech">React.js, Encryption/Decryption, Security</p>
-              <ul className="project-highlights">
-                <li>Developed a secure customer portal using React.js with advanced encryption/decryption mechanisms to protect sensitive payload information</li>
-                <li>Architected and implemented a base service structure that became the foundation for all bank-related services, improving code reusability and maintenance</li>
-                <li>Enhanced system security while maintaining optimal performance for financial transactions</li>
-              </ul>
-            </div>
 
             <div className="project-card">
               <h3>Health Management System - Latus Group UK</h3>
@@ -168,6 +159,15 @@ const Profile = () => {
                 <li>Optimized support ticket system, resulting in a 25% reduction in support ticket issues</li>
                 <li>Enhanced Occupational Health and Health Surveillance features for UK-based healthcare operations</li>
                 <li>Implemented critical features improving operational efficiency in healthcare management</li>
+              </ul>
+            </div>
+            <div className="project-card">
+              <h3>Customer Portal - Ugro Capital</h3>
+              <p className="project-tech">React.js, Encryption/Decryption, Security</p>
+              <ul className="project-highlights">
+                <li>Developed a secure customer portal using React.js with advanced encryption/decryption mechanisms to protect sensitive payload information</li>
+                <li>Architected and implemented a base service structure that became the foundation for all bank-related services, improving code reusability and maintenance</li>
+                <li>Enhanced system security while maintaining optimal performance for financial transactions</li>
               </ul>
             </div>
 
