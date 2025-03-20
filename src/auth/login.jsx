@@ -52,7 +52,7 @@ const Login = () => {
     if (validateForm()) {
       // Successful login
       alert("Login successful!");
-      navigate("/dashboard"); // Navigate to dashboard or home page
+      navigate("/Profile"); // Navigate to dashboard or home page
     }
   };
 
