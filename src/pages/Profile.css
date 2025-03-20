@@ -103,9 +103,12 @@
 }
 
 .profile-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .profile-section {
@@ -116,16 +119,39 @@
 }
 
 .profile-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #1a202c;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 1rem;
 }
 
 .profile-section h2 i {
   color: #ff8c00;
+}
+
+.section-subtitle {
+  font-size: 1.35rem;
+  color: #2d3748;
+  margin: 2.5rem 0 1.5rem;
+  font-weight: 600;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.section-subtitle::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 1.5rem;
+  background: #ff8c00;
+  border-radius: 2px;
 }
 
 .skills-grid {
@@ -133,6 +159,7 @@
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1.25rem;
   padding: 0.5rem;
+  margin-bottom: 3rem;
 }
 
 .skill-item {
@@ -361,9 +388,29 @@
     font-size: 2rem;
   }
 
+  .profile-content {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .profile-section {
+    padding: 1.5rem;
+  }
+
+  .profile-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem;
+  }
+
   .skills-grid {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 1rem;
+    margin-bottom: 2rem;
   }
 
   .skill-item {

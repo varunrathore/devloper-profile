@@ -19,7 +19,7 @@ const Profile = () => {
           <h1>Vardaan Thakur</h1>
           <p className="profile-title">Full Stack Developer</p>
           <div className="about-me">
-            <p>Experienced IT Professional with 6+ years of expertise in Full Stack Development using Laravel and Angular. Successfully delivered scalable web applications and APIs for clients across the UK, US, and South Africa, improving system efficiency by 30%. Proficient in AWS deployment, payment gateway integration (Stripe, PayPal), and optimizing performance for high-traffic applications.</p>
+            <p>Experienced IT Professional with 6+ years of expertise in Full Stack Development using Laravel, React.js, Angular and AWS. Successfully delivered scalable web applications and APIs for clients across the UK, US, and South Africa, improving system efficiency by 30%. Proficient in AWS deployment, payment gateway integration (Stripe, PayPal), and optimizing performance for high-traffic applications.</p>
           </div>
           <div className="profile-social">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
@@ -37,10 +37,11 @@ const Profile = () => {
 
       <div className="profile-content">
         <div className="profile-section">
-          <h2><i className="fas fa-laptop-code"></i> Skills</h2>
+          <h2><i className="fas fa-laptop-code"></i> Skills & Projects</h2>
+          <div className="section-subtitle">Technical Skills</div>
           <div className="skills-grid">
-             {/* Backend Development */}
-             <div className="skill-item">
+            {/* Backend Development */}
+            <div className="skill-item">
               <i className="fab fa-php"></i>
               <span>PHP</span>
             </div>
@@ -147,10 +148,8 @@ const Profile = () => {
               <span>Problem-Solving</span>
             </div>
           </div>
-        </div>
 
-        <div className="profile-section">
-          <h2><i className="fas fa-project-diagram"></i> Key Projects & Achievements</h2>
+          <div className="section-subtitle">Key Projects</div>
           <div className="projects-grid">
             <div className="project-card">
               <h3>Customer Portal - Ugro Capital</h3>
@@ -195,7 +194,7 @@ const Profile = () => {
         </div>
 
         <div className="profile-section">
-          <h2><i className="fas fa-briefcase"></i> Experience</h2>
+          <h2><i className="fas fa-briefcase"></i> Professional Experience</h2>
           <div className="experience-list">
             <div className="experience-item">
               <div className="experience-header">
@@ -265,7 +264,7 @@ const Profile = () => {
           <h2><i className="fas fa-envelope"></i> Contact</h2>
           <div className="contact-info">
             <p><i className="fas fa-envelope"></i> vardaanthakur786@gmail.com</p>
-            <p><i className="fas fa-map-marker-alt"></i> Location, Country</p>
+            <p><i className="fas fa-map-marker-alt"></i> Gurugram, Delhi NCR, India</p>
           </div>
         </div>
       </div>
