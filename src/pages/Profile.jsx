@@ -13,16 +13,17 @@ const Profile = () => {
               alt="Vardaan Thakur"
               className="profile-img"
             />
+            <div className="senior-badge">SNR</div>
           </div>
         </div>
         <div className="profile-info">
           <h1>Vardaan Thakur</h1>
-          <p className="profile-title">Full Stack Developer</p>
+          <p className="profile-title">Senior Backend Engineer | Building Scalable .NET Systems on Azure | Clean Architecture | Full Stack (.NET + React/Angular) | Open to Global Opportunities</p>
           <div className="about-me">
-            <p>Innovative Full Stack Developer with 6+ years of expertise in building enterprise-grade solutions using Laravel, React.js, Angular, and AWS. Proven track record of delivering high-performance web applications and APIs for global clients across the UK, US, and South Africa, consistently achieving 30%+ improvement in system efficiency. Specialized in AWS cloud architecture, and optimizing applications for high-traffic scenarios.</p>
+            <p>Senior Full Stack Developer with 7.4+ years of expertise in architecting backend-heavy, API-driven solutions. My career spans from building robust PHP/Laravel systems and complex lender-bank integrations for major Indian financial institutions to designing scalable .NET and Azure cloud-native architectures for international markets.</p>
           </div>
           <div className="profile-social">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/varunrathore" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/vardaan-thakur-68b34a140/" target="_blank" rel="noopener noreferrer">
@@ -38,16 +39,43 @@ const Profile = () => {
       <div className="profile-content">
         <div className="profile-section">
           <h2><i className="fas fa-laptop-code"></i> Skills & Projects</h2>
-          <div className="section-subtitle">Technical Skills</div>
+          <div className="section-subtitle">Backend Core</div>
           <div className="skills-grid">
-            {/* Frontend */}
+            <div className="skill-item">
+              <i className="fas fa-code"></i>
+              <span>ASP.NET Core</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-project-diagram"></i>
+              <span>Web API</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-laravel"></i>
+              <span>Laravel (PHP)</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-layer-group"></i>
+              <span>EF Core</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-lock"></i>
+              <span>JWT Auth</span>
+            </div>
+          </div>
+
+          <div className="section-subtitle">Frontend Development</div>
+          <div className="skills-grid">
             <div className="skill-item">
               <i className="fab fa-react"></i>
               <span>React.js</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-angular"></i>
-              <span>Angular</span>
+              <span>Angular 10</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-js"></i>
@@ -55,7 +83,7 @@ const Profile = () => {
             </div>
             <div className="skill-item">
               <i className="fab fa-bootstrap"></i>
-              <span>Bootstrap</span>
+              <span>Bootstrap 4</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-html5"></i>
@@ -69,121 +97,65 @@ const Profile = () => {
               <i className="fab fa-sass"></i>
               <span>SCSS/SASS</span>
             </div>
+            <div className="skill-item">
+              <i className="fas fa-mouse-pointer"></i>
+              <span>jQuery</span>
+            </div>
+          </div>
 
-            {/* Backend */}
+          <div className="section-subtitle">Cloud, Database & DevOps</div>
+          <div className="skills-grid">
             <div className="skill-item">
-              <i className="fab fa-php"></i>
-              <span>PHP</span>
+              <i className="fab fa-microsoft"></i>
+              <span>Azure App Service</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-laravel"></i>
-              <span>Laravel</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-code-branch"></i>
-              <span>RESTful APIs</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-database"></i>
-              <span>SQL</span>
-            </div>
-
-            {/* Development Tools */}
-            <div className="skill-item">
-              <i className="fab fa-git-alt"></i>
-              <span>Git</span>
-            </div>
-            <div className="skill-item">
-              <i className="fab fa-github"></i>
-              <span>GitHub</span>
+              <i className="fas fa-server"></i>
+              <span>Azure SQL / MS SQL</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-aws"></i>
-              <span>AWS</span>
+              <span>AWS (EC2/S3/RDS)</span>
             </div>
             <div className="skill-item">
               <i className="fab fa-docker"></i>
               <span>Docker</span>
             </div>
-
-            {/* State Management */}
             <div className="skill-item">
-              <i className="fas fa-cube"></i>
-              <span>Redux</span>
+              <i className="fas fa-infinity"></i>
+              <span>GitHub Actions CI/CD</span>
             </div>
-            <div className="skill-item">
-              <i className="fas fa-project-diagram"></i>
-              <span>Context API</span>
-            </div>
-
-            {/* Authentication & Security */}
-            <div className="skill-item">
-              <i className="fas fa-shield-alt"></i>
-              <span>JWT</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-lock"></i>
-              <span>OAuth</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-key"></i>
-              <span>Sanctum</span>
-            </div>
-
-            {/* Database & ORM */}
             <div className="skill-item">
               <i className="fas fa-database"></i>
               <span>MySQL</span>
             </div>
-            <div className="skill-item">
-              <i className="fas fa-table"></i>
-              <span>Eloquent ORM</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-stream"></i>
-              <span>Query Builder</span>
-            </div>
+          </div>
 
-            {/* Testing & Optimization */}
+          <div className="section-subtitle">Software Engineering & Tools</div>
+          <div className="skills-grid">
             <div className="skill-item">
-              <i className="fas fa-vial"></i>
-              <span>PHPUnit</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-tachometer-alt"></i>
-              <span>Performance</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-bug"></i>
-              <span>Debugging</span>
-            </div>
-
-            {/* Development Concepts */}
-            <div className="skill-item">
-              <i className="fas fa-code"></i>
-              <span>OOP</span>
-            </div>
-            <div className="skill-item">
-              <i className="fas fa-layer-group"></i>
-              <span>MVC</span>
+              <i className="fas fa-shield-alt"></i>
+              <span>SOLID Principles</span>
             </div>
             <div className="skill-item">
               <i className="fas fa-sitemap"></i>
-              <span>Design Patterns</span>
-            </div>
-
-            {/* Development Tools */}
-            <div className="skill-item">
-              <i className="fas fa-terminal"></i>
-              <span>Command Line</span>
+              <span>Clean Architecture</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-code-branch"></i>
-              <span>Version Control</span>
+              <i className="fas fa-file-code"></i>
+              <span>Swagger / OpenAPI</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-vial"></i>
+              <span>DI / Repository Pattern</span>
             </div>
             <div className="skill-item">
               <i className="fas fa-tasks"></i>
-              <span>Agile/Scrum</span>
+              <span>Agile / Jira</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-robot"></i>
+              <span>AI Dev (Antigravity/Cursor)</span>
             </div>
           </div>
 
@@ -191,12 +163,41 @@ const Profile = () => {
           <div className="projects-grid">
 
             <div className="project-card">
-              <h3>Health Management System - Latus Group UK</h3>
-              <p className="project-tech">Laravel, Angular, Healthcare Industry</p>
+              <h3>Enterprise E-commerce Backend & API</h3>
+              <p className="project-tech">ASP.NET Core Web API, JWT Security, Swagger, React (In Progress)</p>
               <ul className="project-highlights">
-                <li>Optimized support ticket system, resulting in a 25% reduction in support ticket issues</li>
-                <li>Enhanced Occupational Health and Health Surveillance features for UK-based healthcare operations</li>
-                <li>Implemented critical features improving operational efficiency in healthcare management</li>
+                <li>Architected a scalable e-commerce infrastructure using ASP.NET Core, focusing on secure transaction handling and high-concurrency product management</li>
+                <li>Implemented enterprise-grade JWT Authentication/Authorization workflows, securing critical endpoints for products and user-specific services</li>
+                <li>Designed and documented a comprehensive RESTful API suite using Swagger (OpenAPI) for seamless frontend integration and cross-team collaboration</li>
+                <li>Engineered robust CRUD services with optimized data access patterns, prepared for high-traffic enterprise scenarios</li>
+              </ul>
+            </div>
+            <div className="project-card">
+              <h3>MedTest - Medical Test Management</h3>
+              <p className="project-tech">ASP.NET Core, EF Core, Azure, Docker</p>
+              <ul className="project-highlights">
+                <li>Designed a comprehensive Medical Test Management system using ASP.NET Core Web API with Clean Architecture</li>
+                <li>Implemented secure JWT token workflows and robust CRUD APIs for user and test result management</li>
+                <li>Successfully containerized the entire application and automated deployment to Azure App Service</li>
+              </ul>
+            </div>
+            <div className="project-card">
+              <h3>Interview Preparation System / Study Tracker</h3>
+              <p className="project-tech">.NET, React.js, FontAwesome</p>
+              <ul className="project-highlights">
+                <li>Developed an automated system to pre-load interview topics for .NET and DSA, streamlining study preparation</li>
+                <li>Implemented intuitive UI buttons for bulk topic management, significantly reducing manual data entry</li>
+                <li>Created a scalable architecture for adding diverse learning modules and category-based filtering</li>
+              </ul>
+            </div>
+            <div className="project-card">
+              <h3>Health Management System (Latus Group UK)</h3>
+              <p className="project-tech">.NET, Laravel, Angular, Cloud Infrastructure</p>
+              <ul className="project-highlights">
+                <li>Architected and scaled the core Occupational Health and Surveillance infrastructure serving the UK healthcare market, ensuring mission-critical reliability</li>
+                <li>Led the redesign of the support ticket platform, achieving a 25% reduction in issues through optimized backend performance and preventative architecture</li>
+                <li>Implemented complex international healthcare compliance features, streamlining operations across multiple clinical settings and 10,000+ users</li>
+                <li>Drove system-wide performance improvements to handle increased UK health surveillance data volumes with 99.9% uptime</li>
               </ul>
             </div>
             <div className="project-card">
@@ -240,11 +241,13 @@ const Profile = () => {
                 <span className="company">Smart Working</span>
                 <span className="duration">May 2024 – Present</span>
               </div>
-              <ul className="experience-details">
-                <li>Developing and maintaining scalable web applications using Laravel and Angular.</li>
-                <li>Leading API integrations to streamline operations and enhance user experience.</li>
-                <li>Deploying and managing applications on AWS (S3, CloudFront, EC2, RDS) to improve system reliability.</li>
-                <li>Implementing robust security measures and optimizing application performance.</li>
+               <ul className="experience-details">
+                <li>Providing Occupational Health Solutions; developing and maintaining scalable web applications using .NET, Laravel and Angular.</li>
+                <li>Engineer backend services using ASP.NET Core / Web APIs following Clean Architecture principles for maximum scalability.</li>
+                <li>Design and implement RESTful APIs consumed by React and Angular frontend applications.</li>
+                <li>Architect Docker containerization workflows to ensure consistent local development and cloud-ready deployments.</li>
+                <li>Manage relational data modeling and migrations using EF Core and Azure SQL Database.</li>
+                <li>Automate build and deployment workflows by implementing CI/CD pipelines using GitHub Actions.</li>
               </ul>
             </div>
 
@@ -312,7 +315,7 @@ const Profile = () => {
             <h2><i className="fas fa-user-circle"></i> About Me</h2>
             <div className="about-content">
               <p className="about-summary">
-                Dynamic Full Stack Developer with 6+ years of proven expertise in architecting enterprise-level solutions. Recognized for delivering high-impact web applications that drive business transformation across UK, US, and South African markets. Demonstrated track record of enhancing system performance by 30% through innovative architectural solutions and optimization strategies.
+                I have successfully delivered mission-critical applications across finance, healthcare, and blockchain for global clients in the UK, US, Norway, and South Africa. With a core focus on Clean Architecture, security, and high-performance system integration, I am dedicated to building cloud-ready enterprise systems and growing toward senior technical leadership.
               </p>
               
               <div className="key-highlights">
@@ -352,14 +355,14 @@ const Profile = () => {
               <div className="tech-stack">
                 <h4>Core Technology Arsenal</h4>
                 <div className="tech-tags">
-                  <span className="tech-tag"><i className="fab fa-laravel"></i> Laravel Ecosystem</span>
+                  <span className="tech-tag"><i className="fas fa-code"></i> ASP.NET Core</span>
+                  <span className="tech-tag"><i className="fab fa-laravel"></i> Laravel</span>
                   <span className="tech-tag"><i className="fab fa-react"></i> React.js</span>
                   <span className="tech-tag"><i className="fab fa-angular"></i> Angular</span>
-                  <span className="tech-tag"><i className="fab fa-aws"></i> AWS Cloud</span>
-                  <span className="tech-tag"><i className="fab fa-node-js"></i> Node.js</span>
-                  <span className="tech-tag"><i className="fas fa-database"></i> MySQL</span>
-                  <span className="tech-tag"><i className="fas fa-server"></i> RESTful Architecture</span>
-                  <span className="tech-tag"><i className="fas fa-shield-alt"></i> OAuth/JWT Security</span>
+                  <span className="tech-tag"><i className="fab fa-microsoft"></i> Azure Cloud</span>
+                  <span className="tech-tag"><i className="fab fa-aws"></i> AWS</span>
+                  <span className="tech-tag"><i className="fab fa-docker"></i> Docker</span>
+                  <span className="tech-tag"><i className="fas fa-robot"></i> AI-Assisted Dev</span>
                 </div>
               </div>
 

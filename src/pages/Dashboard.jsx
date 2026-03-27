@@ -101,7 +101,7 @@ const Dashboard = () => {
               <i className="fas fa-user"></i>
             </div>
             <div className="user-details">
-              <h4>John Doe</h4>
+              <h4>Vardaan Thakur</h4>
               <p>Developer</p>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Dashboard = () => {
       <main className="dashboard-main">
         <div className="dashboard-header">
           <div className="welcome-section">
-            <h1>Welcome back, John!</h1>
+            <h1>Welcome back, Vardaan!</h1>
             <p>Here's what's happening with your projects today.</p>
           </div>
           <div className="header-actions">
