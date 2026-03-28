@@ -42,63 +42,71 @@ const Profile = () => {
           <div className="section-subtitle">Backend Core</div>
           <div className="skills-grid">
             <div className="skill-item">
-              <i className="fas fa-code"></i>
+              <i className="devicon-dotnetcore-plain colored"></i>
               <span>ASP.NET Core</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-project-diagram"></i>
+              <i className="devicon-dot-net-plain pulse-icon"></i>
               <span>Web API</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-laravel"></i>
+              <i className="devicon-laravel-plain colored"></i>
               <span>Laravel (PHP)</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-node-js"></i>
+              <i className="devicon-nodejs-plain colored"></i>
               <span>Node.js</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-layer-group"></i>
+              <i className="devicon-dot-net-plain colored"></i>
               <span>EF Core</span>
             </div>
             <div className="skill-item">
               <i className="fas fa-lock"></i>
               <span>JWT Auth</span>
             </div>
+            <div className="skill-item">
+              <i className="fas fa-check-circle"></i>
+              <span>FluentValidation</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-terminal"></i>
+              <span>Serilog</span>
+            </div>
           </div>
 
           <div className="section-subtitle">Frontend Development</div>
           <div className="skills-grid">
             <div className="skill-item">
-              <i className="fab fa-react"></i>
+              <i className="devicon-react-original colored"></i>
               <span>React.js</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-angular"></i>
+              <i className="devicon-angularjs-plain colored"></i>
               <span>Angular 10</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-js"></i>
+              <i className="devicon-javascript-plain colored"></i>
               <span>JavaScript</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-bootstrap"></i>
+              <i className="devicon-bootstrap-plain colored"></i>
               <span>Bootstrap 4</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-html5"></i>
+              <i className="devicon-html5-plain colored"></i>
               <span>HTML5</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-css3-alt"></i>
+              <i className="devicon-css3-plain colored"></i>
               <span>CSS3</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-sass"></i>
+              <i className="devicon-sass-original colored"></i>
               <span>SCSS/SASS</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-mouse-pointer"></i>
+              <i className="devicon-jquery-plain colored"></i>
               <span>jQuery</span>
             </div>
           </div>
@@ -106,19 +114,19 @@ const Profile = () => {
           <div className="section-subtitle">Cloud, Database & DevOps</div>
           <div className="skills-grid">
             <div className="skill-item">
-              <i className="fab fa-microsoft"></i>
+              <i className="devicon-azure-plain colored"></i>
               <span>Azure App Service</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-server"></i>
+              <i className="devicon-microsoftsqlserver-plain colored"></i>
               <span>Azure SQL / MS SQL</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-aws"></i>
+              <i className="devicon-amazonwebservices-plain colored"></i>
               <span>AWS (EC2/S3/RDS)</span>
             </div>
             <div className="skill-item">
-              <i className="fab fa-docker"></i>
+              <i className="devicon-docker-plain colored"></i>
               <span>Docker</span>
             </div>
             <div className="skill-item">
@@ -126,7 +134,7 @@ const Profile = () => {
               <span>GitHub Actions CI/CD</span>
             </div>
             <div className="skill-item">
-              <i className="fas fa-database"></i>
+              <i className="devicon-mysql-plain colored"></i>
               <span>MySQL</span>
             </div>
           </div>
@@ -156,6 +164,10 @@ const Profile = () => {
             <div className="skill-item">
               <i className="fas fa-robot"></i>
               <span>AI Dev (Antigravity/Cursor)</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-flask"></i>
+              <span>xUnit</span>
             </div>
           </div>
 

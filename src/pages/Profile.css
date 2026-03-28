@@ -282,27 +282,31 @@
   line-height: 1.2;
 }
 
-/* Specific brand colors for tech icons */
-.skill-item .fa-react { color: #61dafb; }
-.skill-item .fa-angular { color: #dd0031; }
-.skill-item .fa-js { color: #f7df1e; }
-.skill-item .fa-html5 { color: #e34f26; }
-.skill-item .fa-css3-alt { color: #264de4; }
-.skill-item .fa-sass { color: #cc6699; }
-.skill-item .fa-php { color: #777bb4; }
-.skill-item .fa-laravel { color: #ff2d20; }
-.skill-item .fa-aws { color: #ff9900; }
-.skill-item .fa-docker { color: #2496ed; }
-.skill-item .fa-git-alt { color: #f05032; }
 .skill-item .fa-github { color: #181717; }
-.skill-item .fa-code { color: #512bd4; }
-.skill-item .fa-microsoft { color: #0078d4; }
-.skill-item .fa-node-js { color: #68a063; }
-.skill-item .fa-database, .skill-item .fa-server { color: #00758f; }
 .skill-item .fa-infinity { color: #0078d4; }
 .skill-item .fa-robot { color: #8e44ad; }
+.skill-item .fa-check-circle { color: #2ecc71; }
+.skill-item .fa-terminal { color: #e74c3c; }
+.skill-item .fa-flask { color: #00a4ef; }
 .skill-item .fa-stripe { color: #008cdd; }
 .skill-item .fa-paypal { color: #00457c; }
+
+/* Devicon specific */
+.skill-item [class^="devicon-"] {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pulse-icon {
+  color: #007acc;
+  animation: iconPulse 2s ease-in-out infinite;
+}
+
+@keyframes iconPulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
 
 .skill-item:hover .fab,
 .skill-item:hover .fas {
